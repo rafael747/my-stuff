@@ -1,0 +1,5 @@
+A retificação é o processo de converter a corrente alternada em corrente continua, e é amplamente utilizado em dispositivos eletronicos.
+
+Uma forma de fazer a conversão é a utilização de um diodo semicondutor, fazendo com que a corrente somente circule em um unico sentido, gerando uma corrente continua, porém, devido ao formato de onda na corrente alternada, perduram periodos com falta de corrente (onde a corrente muda de sentido). Tal impecilho pode ser amenizado com a utilização de capacitores, afim de tornar a corrente resultante mais contínua.
+
+Outra forma é a retificação em ponte, que através de 4 diodos a corrente é "encaminhada" ao lugar certo, sendo mais eficiente que o método anterior por fornecer uma corrente mais continua, sem "buracos" na corrente resultante. Apesar desse método ser mais eficiente, é mais caro devio a maior quantidade de diodos utilizados.

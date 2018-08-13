@@ -1,0 +1,31 @@
+// Arquivo de teste para o analisador lexico/sintatico
+int main() {
+
+
+	int a,b=4,c=1 - 2;
+	a=b - 1;
+	b=3 - a;
+
+
+	if(a >= c){
+		a=b+c;
+	}
+	else if (a <= c){
+		a=b-c;
+	}
+	else
+	{
+		a=minhaFuncao(b, c*5);
+	}
+
+	printf("fim de programa");
+	
+	return(0);
+}
+
+float minhaFuncao(int arg1, float arg2) {
+	
+	int aux=0;
+	aux=(arg1+arg2)/2;
+	return(aux);
+}

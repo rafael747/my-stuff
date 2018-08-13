@@ -1,0 +1,39 @@
+// arquivo de teste para o analisador lexico
+// escrito por Rafael Carreira e Bruno Carvalho
+
+
+int main()
+{
+	//Declaracao de variaveis
+	int n1, n2;
+	int soma;
+
+	n1 = 1;
+	n2 = 10;
+		
+	soma = add(n1, n2);
+
+	if(soma > 50)
+	{
+		printf("Deu um número grande!");
+		exit(1);
+	}
+	else
+	{
+		printf("Tá de boa!");
+		exit(0);
+	}
+	
+}
+
+int add(int a, int b)
+{
+	int i,2soma; //contador e acumulador
+
+	for(i=a; i<=b; i=i+1)
+	{
+		2soma=2soma+i;
+	}
+	
+	return(2soma);
+}		
