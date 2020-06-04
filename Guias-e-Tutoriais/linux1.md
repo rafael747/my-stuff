@@ -2,7 +2,7 @@
 
  - Terminal linux
    - comandos basicos
-   - permições
+   - permissões
    - pipes
    - file descriptors
    - exit status 
@@ -68,20 +68,20 @@ Para verificar o tamanho de arquivos:
 	df -h
 ```
 
- - Permições 
+ - Permissões 
 
-Podemos verificar as permições dos arquivos com:
+Podemos verificar as permissões dos arquivos com:
 
 	ls -lha
 
 
-### Permições
+### Permissões
 
-Para alterar as permições de um arquivo
+Para alterar as permissões de um arquivo
 
-	chmod <permições> <arquivo>
+	chmod <permissões> <arquivo>
 
-as permições podem ser da seguinte forma (u=user, g=group, o=others):
+as permissões podem ser da seguinte forma (u=user, g=group, o=others):
 
 	ugo=rwx
 	u=rwx,g=rw,o=x
@@ -119,7 +119,7 @@ EX: root:root
 	chown <user>:<group> <arquivo>
 ```
 
-> para alterar permições ou autoria recursivamente, usar -R 
+> para alterar permissões ou autoria recursivamente, usar -R 
 
 ### pipes
 
